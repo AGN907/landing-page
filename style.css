@@ -111,7 +111,7 @@ body > h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 16px;
+    gap: 32px;
     margin-bottom: 64px;
 }
 .card {
