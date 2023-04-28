@@ -16,19 +16,24 @@ ul {
     display: flex;
     gap: 16px;
 }
+p,
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
 
+button {
+    border: none;
+}
 
 
 a,
 .bottom .text p {
-    margin: 0;
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .text h1 {
-    margin: 0;
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
@@ -40,6 +45,7 @@ a,
     background-color: #1f2937;
 
     padding: 8px 8px  32px;
+    margin-bottom: 64px;
     
 }
 
@@ -98,6 +104,7 @@ body > h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-bottom: 32px;
 }
 
 .cards {
@@ -117,7 +124,7 @@ body > h2 {
     margin-top: auto;
     background-color: #1f2937;
     color: #E5E7EB;
-    padding: 16px;
+    padding: 32px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,15 +154,44 @@ body > h2 {
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
-    margin: 0;
     
 }
 
 .quote > p:last-child{
-    margin: 0;
     align-self: flex-end;
     font-weight: 600;
     font-size: 24px;
     
+}
+
+.border-white {
+    border: 1px solid white;
+}
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    margin: 64px 16px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 42px;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.action-text {
+    color:#E5E7EB;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.action-text > h3 {
+    font-weight: 700;
+    font-size: 24px;
 }
 
