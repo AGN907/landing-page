@@ -92,3 +92,30 @@ button.signup {
     border-radius: 4px;
 
 }
+
+
+body > h2 {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+.card {
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
